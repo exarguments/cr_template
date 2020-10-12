@@ -1,0 +1,129 @@
+.navbar-inverse { background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  z-index: 100;
+  height: 100px;   // Animation
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+   border-radius: 0;
+
+ }
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #63C6FF;height: 50px}
+
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus { background-color: #63C6FF;}
+
+.dropdown-menu { background-color: #63C6FF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #FFFFFF}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #FFFFFF}
+.navbar-inverse .navbar-brand { color: #FFFFFF}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a { color: #fff}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #000000}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+
+
+.navbar-inverse.navbar.shrink {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 50px;
+  height: 50px
+}
+
+.navbar-inverse.shrink a {
+  padding-top: 15px !important;
+  padding-bottom: 10px !important;
+  font-size: 16px;
+}
+
+.navbar-inverse.shrink .navbar-brand {
+  font-size: 15px;
+}
+
+.navbar-inverse .shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
+
+
+
+
+.navbar-toggle a{ /*space between menus on mobile screen*/
+  margin-right: 12px;
+  color: #fff;
+}
+
+#h,#s,#a,#c,#myLog form,#mySign form{/*by fade in effect applied to the menu  works after this css*/
+  display: none;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+  /*  background-color: rgba(99,198,255, 1);*/
+    background-color: rgba(204,236,117, 1);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    margin-top: 30px auto;
+    font-weight: 100;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    z-index: 101
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 60px;
+    right: 45px;
+    font-size: 60px !important;
+    z-index: 10
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .closebtn {
+    font-size: 40px !important;
+    top: 15px;
+    right: 35px;
+  }
+}
+ul{
+  list-style: none;
+}
+ul span{
+  font-size: 30px;
+}

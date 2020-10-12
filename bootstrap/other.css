@@ -1,0 +1,41 @@
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -50px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  padding-top:20px;
+}
+
+
+  left {
+  float: left;
+  margin-right: 1em;
+}
+
+.right {
+  float: right;
+  margin-left: 1em;
+}
+
+p{
+  font-size: 25px
+}
+/* Styling for Pen, unrelated to float */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: #e8d174
+}
